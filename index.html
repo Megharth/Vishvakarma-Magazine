@@ -24,7 +24,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Vishvakarma</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">Vishvakarma</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,13 +34,13 @@
             <a class="nav-link js-scroll-trigger" href="articles.html">Articles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger">Team</a>
+            <a class="nav-link js-scroll-trigger" href="team.html">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger">Previous year</a>
+            <a class="nav-link js-scroll-trigger" href="">Previous year</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger">Submit your articles</a>
+            <a class="nav-link js-scroll-trigger" href="submit.html">Submit your articles</a>
           </li>
         </ul>
       </div>
@@ -53,8 +53,8 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2 class="text-uppercase">
-             <span id="greeting"></span>
-            <strong>Welcome to <br><span id="magazinename"></span> Magazine</strong>
+            <span id="greeting"></span>
+            <strong><br><span id="magazinename"></span>&nbsp;&nbsp;<span id="magazine"></span></strong>
           </h2>
           <hr>
         </div>
@@ -125,37 +125,6 @@
     <script src="js/creative.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-
-        window.count1 = 0;
-        window.count2 = 0;
-        window.hellos = ["Hello","नमस्ते","કેમ છો?","स्वागत आहे","Hola","Bonjour"];
-        window.magazinename = ["Vishvakarma","विश्वकर्मा","વિશ્વકર્મા"]
-
-        function greet()
-        {
-            if(window.count1 >= window.hellos.length)
-            window.count1= 0;
-            $("#greeting").fadeOut(1000,function(){
-                $("#greeting").text(window.hellos[window.count1++]+"! ").fadeIn(1000);
-            })
-        }
-        $(function(){
-            setInterval(greet,2000);
-        });
-
-        function magazinegreet()
-        {
-            if(window.count2 >= window.magazinename.length)
-            window.count2 = 0;
-            $("#magazinename").fadeOut(1000,function(){
-                $("#magazinename").text(window.magazinename[window.count2++]+" ").fadeIn(1000);
-            })
-        }
-        $(function(){
-            setInterval(magazinegreet,2000);
-        })
-
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>
