@@ -1,0 +1,7 @@
+.team{
+    margin-bottom: 50px;
+}
+.team .card{
+    max-width: 300px;
+    margin: 10px 0;
+}

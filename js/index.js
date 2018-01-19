@@ -2,8 +2,8 @@ window.count1 = 0;
 window.count2 = 0;
 window.count3 = 0;
 window.hellos = ["Hello","नमस्ते","કેમ છો?","स्वागत आहे","Hola","Bonjour"];
-window.magazinename = ["Vishvakarma","विश्वकर्मा","વિશ્વકર્મા"];
-window.magazine = ["Magazine","आलेख","મેગેઝિન"];
+window.magazinename = ["Vishvakarma Magazine","विश्वकर्मा आलेख","વિશ્વકર્મા મેગેઝિન"];
+
 
 function greet()
 {
@@ -29,16 +29,4 @@ function magazinegreet()
 
 $(function(){
     setInterval(magazinegreet,2000);
-});
-
-function magazine1()
-{
-    if(window.count3 >= window.magazine.length)
-        window.count3 = 0;
-    $("#magazine").fadeOut(1000,function(){
-        $("#magazine").text(window.magazine[window.count3++]).fadeIn(1000);
-    })
-}
-$(function(){
-    setInterval(magazine1,2000);
 });
