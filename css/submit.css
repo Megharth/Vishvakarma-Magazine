@@ -1,0 +1,19 @@
+.form{
+    margin-bottom: 50px;
+}
+textarea.form-control {
+    overflow: hidden;
+}
+.form .form-control{
+    border-radius: 3px;
+}
+.form .form-control:focus{
+    box-shadow: 0 0 2px 2px #658945;
+    border-color: white;
+}
+.form .col-sm-6{
+    margin-bottom: 10px;
+}
+.form .submit-btn{
+    margin-top: 20px;
+}
