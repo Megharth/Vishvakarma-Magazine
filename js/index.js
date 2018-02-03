@@ -1,8 +1,7 @@
-window.count1 = 0;
-window.count2 = 0;
-window.count3 = 0;
+window.count1 = 1;
+window.count2 = 1;
 window.hellos = ["Hello","नमस्ते","કેમ છો?","स्वागत आहे","Hola","Bonjour"];
-window.magazinename = ["Vishvakarma Magazine","विश्वकर्मा आलेख","વિશ્વકર્મા મેગેઝિન"];
+window.magazinename = ["Vishvakarma Magazine","विश्वकर्मा पत्रिका","વિશ્વકર્મા મેગેઝિન"];
 
 
 function greet()

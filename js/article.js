@@ -1,7 +1,7 @@
 window.count1 = 0;
-window.articles = ["લેખો!","आलेख!","Articles!"];
+window.articles = ["લેખ!","लेख!","Articles!"];
 
-function articlename()
+function articleName()
 {
     if(window.count1 >= window.articles.length)
         window.count1= 0;
@@ -11,5 +11,5 @@ function articlename()
 }
 
 $(function(){
-    setInterval(articlename,2000);
-})
+    setInterval(articleName,2000);
+});

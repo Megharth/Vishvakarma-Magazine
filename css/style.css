@@ -154,7 +154,9 @@ img::-moz-selection {
 .text-primary {
   color: #F05F40 !important;
 }
-
+.pgInfo{
+    font-size: large;
+}
 .btn {
   font-weight: 700;
   text-transform: uppercase;
