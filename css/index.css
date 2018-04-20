@@ -116,5 +116,7 @@ header.masthead p {
 }
 
 .welcome-text{
+    font-size: 2rem;
+    height: 130px;
     text-transform: uppercase;
 }

@@ -24,6 +24,10 @@ a:hover {
     color: #f05f40;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .bg-primary1 {
   background-color: #F05F40 !important; }
 

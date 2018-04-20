@@ -17,3 +17,6 @@ textarea.form-control {
 .form .submit-btn{
     margin-top: 20px;
 }
+.link:hover {
+    text-decoration: none;
+}
