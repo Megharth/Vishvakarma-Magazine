@@ -159,7 +159,7 @@ img::-moz-selection {
   color: #F05F40 !important;
 }
 .pgInfo{
-    font-size: large;
+    font-size: 20px;
 }
 .btn {
   font-weight: 700;

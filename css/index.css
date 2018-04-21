@@ -120,3 +120,7 @@ header.masthead p {
     height: 130px;
     text-transform: uppercase;
 }
+
+.text-faded {
+    font-size: 22px;
+}
