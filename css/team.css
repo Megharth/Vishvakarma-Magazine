@@ -1,8 +1,8 @@
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 300px;
-    margin-bottom: 40px;
+    max-width: 256px;
+    margin: 10px;
 }
 .portfolio-box .portfolio-box-caption {
     position: absolute;
@@ -39,11 +39,32 @@
     font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
+    border-radius: 5px;
     opacity: 1;
 }
 .portfolio-box:focus {
     outline: none;
 }
+
+.img-fluid{
+    width: 256px;
+    height: 384px;
+    border-radius: 5px;
+}
+
+.member, .member img {
+    width: 200px;
+    height: 300px;
+}
+
+.tab-pane .section-heading {
+    margin-top: 30px;
+}
+
+.team {
+    margin-bottom: 50px;
+}
+
 @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
