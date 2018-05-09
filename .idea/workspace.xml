@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb0e3a8f-4810-404b-87b4-63b5fa1c00bd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/shot.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/previousMagazine.html" afterPath="$PROJECT_DIR$/previousMagazine.html" />
-      <change beforePath="$PROJECT_DIR$/submit.html" afterPath="$PROJECT_DIR$/submit.html" />
-      <change beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,12 +22,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="291" column="29" lean-forward="true" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="53" />
+            <state relative-caret-position="252">
+              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding>
-                <element signature="e#5884#5891#1" expanded="true" />
-                <element signature="e#10107#10114#1" expanded="true" />
-                <element signature="e#13497#13504#1" expanded="true" />
+                <element signature="e#6420#6427#1" expanded="true" />
+                <element signature="e#10643#10650#1" expanded="true" />
+                <element signature="e#14033#14040#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,10 +109,10 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/team.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/previousMagazine.html" />
         <option value="$PROJECT_DIR$/submit.html" />
         <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -187,6 +187,11 @@
               <item name="Magazine" type="b2602c69:ProjectViewProjectNode" />
               <item name="Magazine" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Magazine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Magazine" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,6 +204,11 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Vishvakarma/website/articles.html&#10;.masthead&#9;null&#9;null&#10;navbar-shri&#9;null&#9;null&#10;h2&#9;null&#9;null&#10;welcome&#9;null&#9;null&#10;mas&#9;null&#9;null&#10;.mast&#9;null&#9;null&#10;magazinen&#9;null&#9;null&#10;.portfo&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,12 +250,12 @@
       <workItem from="1524286387609" duration="2803000" />
       <workItem from="1524312553066" duration="18000" />
       <workItem from="1525106424589" duration="8113000" />
-      <workItem from="1525885042484" duration="1467000" />
+      <workItem from="1525885042484" duration="1819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51605000" />
+    <option name="totallyTimeSpent" value="51957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="424" y="67" width="1922" height="1092" extended-state="6" />
@@ -641,12 +651,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="291" column="29" lean-forward="true" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="53" />
+        <state relative-caret-position="252">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
-            <element signature="e#5884#5891#1" expanded="true" />
-            <element signature="e#10107#10114#1" expanded="true" />
-            <element signature="e#13497#13504#1" expanded="true" />
+            <element signature="e#6420#6427#1" expanded="true" />
+            <element signature="e#10643#10650#1" expanded="true" />
+            <element signature="e#14033#14040#1" expanded="true" />
           </folding>
         </state>
       </provider>
